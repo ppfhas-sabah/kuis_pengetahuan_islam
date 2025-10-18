@@ -203,3 +203,26 @@ body {
     margin-top: 10px; /* Jarak lebih dekat dengan tombol keluar */
     color: #6c757d;
 }
+
+/* Tombol tambahan untuk kembali ke menu */
+.menu-button {
+    background-color: #17a2b8 !important;
+    box-shadow: 0 4px 10px rgba(23, 162, 184, 0.4);
+}
+
+.menu-button:hover {
+    background-color: #138496 !important;
+}
+/* Jarak antar tombol di halaman hasil */
+.submit-button {
+    display: block;
+    width: 100%;
+    margin: 10px 0; /* kasih jarak vertikal antar tombol */
+}
+
+/* Supaya tampilan tetap rapi di layar kecil */
+@media (max-width: 600px) {
+    .submit-button {
+        margin: 8px 0;
+    }
+}
