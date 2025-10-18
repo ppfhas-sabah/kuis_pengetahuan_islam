@@ -244,4 +244,9 @@ exitButton.addEventListener('click', () => {
     window.location.href = 'https://instagram.com/assabah07';
 });
 
+// 🔹 Tambahan baru:
+const menuButton = document.getElementById('menu-button');
+menuButton.addEventListener('click', () => {
+    window.location.href = 'https://ppfhas-sabah.github.io/laman_quizz/';
+});
 changeScreen(startScreen);
